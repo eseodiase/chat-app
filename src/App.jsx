@@ -1,29 +1,39 @@
 import './App.scss';
+import Container from './components/Container.jsx';
+import Interface from './components/Interface.jsx';
+import ScreenTop from './components/ScreenTop.jsx';
+import Chat from './components/Chat.jsx';
+import Form from './components/Form.jsx';
+import Article from './components/Article.jsx';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
-  );
-}
+  return(
+       <main>
+            <section>
+                 <div class="corner-left"></div>
+                      <div class="corner-right"></div>
+                           
+                                <Container>
+                                       <Interface>
+                                                <ScreenTop/>
+                                                         <Chat/>
+                                                                  <Form/>
+                                                                         </Interface>
+                                                                                
+                                                                                       <article>
+                                                                                                <Article/>
+                                                                                                       </article>
+                                                                                                            </Container>
+                                                                                                                 
+                                                                                                                      <div class="corner-right-for-mobile-view"></div>
+                                                                                                                           </section>
+                                                                                                                              
+                                                                                                                                   <div class="attribution">
+                                                                                                                                     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                                                                                                                                       Coded by <a href="#">Ese Odiase</a>
+                                                                                                                                            </div>
+                                                                                                                                             </main>
+                                                                                                                                               )
+                                                                                                                                               }
 
-export default App;
+                                                                                                                                               export default App;
