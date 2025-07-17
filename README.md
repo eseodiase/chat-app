@@ -24,8 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-- [mobile view 1](./images/mobile-view-1.jpg)
-- [mobile view 2](./images/mobile-view-2.jpg)
+- [mobile view 1](./public/images/mobile-view-1.jpg)
+- [mobile view 2](./public/images/mobile-view-2.jpg)
+- [desktop view ](./public/images/desktop-view.jpg)
 
 ### Links
 
