@@ -10,9 +10,9 @@ const Chat =()=>{
                                                                            </div>
                                                                                    
                                                                                            <div className="images">
-                                                                                                   <img src="avatar-jessica.jpeg" alt="dog1"/>
-                                                                                                           <img src="avatar-jessica.jpeg" alt="dog2"/>
-                                                                                                                   <img src="avatar-jessica.jpeg" alt="dog3"/>
+                                                                                                   <img src="./images/dog-image-1.jpg" alt="dog1"/>
+                                                                                                           <img src="./images/dog-image-2.jpg" alt="dog2"/>
+                                                                                                                   <img src="./images/dog-image-3.jpg" alt="dog3"/>
                                                                                                                            </div>
                                                                                                                                    
                                                                                                                                            <div className="right-chat">

@@ -1,70 +1,79 @@
-# GitHub Codespaces ♥️ React
+# Frontend Mentor - Chat app CSS illustration solution
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## Table of contents
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+## Overview
 
-## Available Scripts
+### The challenge
 
-In the project directory, you can run:
+Users should be able to:
 
-### `npm start`
+- View the optimal layout for the component depending on their device's screen size
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
+### Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+- [mobile view 1](./images/mobile-view-1.jpg)
+- [mobile view 2](./images/mobile-view-2.jpg)
 
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
+### Links
 
-### `npm test`
+- [Solution URL:](https://github.com/eseodiase/chat-app)
+- [Live Site URL:](https://eseodiase.github.io/chat-app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## My process
 
-### `npm run build`
+### Built with
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow (developed entirely on my mobile device)
+- [React](https://reactjs.org/) – JavaScript library for building user interfaces  
+- [SASS](https://sass-lang.com/) – CSS preprocessor for writing cleaner, modular styles  
+- [Vite](https://vitejs.dev/) – Next-generation frontend tooling for fast development  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### What I learned
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This challenge significantly leveled up my coding skills. As my first experience with Sass, I discovered simpler variables compared to plain CSS.
 
-## Learn More
+```css before
+:root{
+  --primary: hsl(273, 101%, 55%);
+}
 
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
+.container{
+  background: var(--primary);
+}
+```
 
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
+```scss after
+  $primary: hsl(273, 101%, 55%);
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+.container{
+  background: $primary;
+}
+```
 
-### Code Splitting
+### Useful resources
 
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
+- [Codespaces React Template](https://github.com/codespaces/new) – GitHub Codespaces starter template for React projects
+- [Spck Editor Documentation](https://spck.io/docs) - Essential for mobile development setup and React SystemJS practice
+- [Screenfly](https://screenfly.org) - Useful for responsive testing without multiple devices
+- [Responsive Design Checker](https://www.responsivedesignchecker.com) - Also useful for responsive testing
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
+- Frontend Mentor - [@eseodiase](https://www.frontendmentor.io/profile/eseodiase)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
-
-### Advanced Configuration
-
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
-
-### Deployment
-
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
-
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)

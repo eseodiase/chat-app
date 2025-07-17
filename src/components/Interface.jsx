@@ -6,4 +6,3 @@ const Interface = ({ children }) => {
                       );
                       }
                       export default Interface;
-}
