@@ -40,7 +40,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow (developed entirely on my mobile device)
+- Desktop-first workflow (developed entirely on my mobile device)
 - [React](https://reactjs.org/) – JavaScript library for building user interfaces  
 - [SASS](https://sass-lang.com/) – CSS preprocessor for writing cleaner, modular styles  
 - [Vite](https://vitejs.dev/) – Next-generation frontend tooling for fast development  
@@ -77,4 +77,5 @@ This challenge significantly leveled up my coding skills. As my first experience
 ## Author
 
 - Frontend Mentor - [@eseodiase](https://www.frontendmentor.io/profile/eseodiase)
+- LinkedIn - [Ese Odiase](https://ng.linkedin.com/in/ese-g-odiase-220576196)
 
