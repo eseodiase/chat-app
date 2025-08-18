@@ -27,7 +27,7 @@ const Chat = () => {
 
       <div className="left-chat">
         <p>
-          She looks so happy! The time we discussed works. How long shall I take
+          Dog looks so happy! The time we discussed works. How long shall I take
           her out for?
         </p>
       </div>
