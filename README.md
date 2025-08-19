@@ -26,7 +26,7 @@ Users should be able to:
 
 - [mobile view 1](./public/images/mobile-view-1.jpg)
 - [mobile view 2](./public/images/mobile-view-2.jpg)
-- [desktop view ](./public/images/desktop-view.jpg)
+![desktop view ](./public/images/desktop-view.jpg)
 
 ### Links
 
